@@ -1,0 +1,33 @@
+{
+  "name": "com.assa-abbloy",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "dependencies": {
+    "homey-log": "2.1.0",
+    "homey-oauth2app": "3.5.3",
+    "source-map-support": "0.5.21"
+  },
+  "devDependencies": {
+    "@drenso/homey-branding-helper": "2.2.0",
+    "@tsconfig/node16": "1.0.3",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@0.3.1",
+    "@types/node": "16.11.45",
+    "@types/source-map-support": "0.5.4",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.7",
+    "eslint": "7.32.0",
+    "json-merger": "1.1.9",
+    "typescript": "4.4.3"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "lint": "eslint --ext .ts .",
+    "fix": "eslint --fix  --ext .ts .",
+    "validate": "homey app validate --level=verified",
+    "homey": "homey",
+    "branded:prepare": "homey-branding-helper prepare",
+    "branded:install": "homey-branding-helper install",
+    "run": "homey-branding-helper run",
+    "publish": "homey-branding-helper publish"
+  }
+}

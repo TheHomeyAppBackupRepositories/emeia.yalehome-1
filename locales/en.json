@@ -1,0 +1,19 @@
+{
+  "battery_timeout_running": "Refreshing the battery is only available once per minute",
+  "device_offline": "This lock is currently offline, please check the gateway and its network connection",
+  "pin_error": "Issue when handling PIN changes:",
+  "status": {
+    "408": "Lock unavailable",
+    "409": "Lock has no bridge",
+    "412": "Precondition failed",
+    "422": "Connect unavailable",
+    "423": "Connect unavailable",
+    "460": "Lock busy",
+    "500": "Connect unavailable",
+    "530": "Lock is jammed",
+    "531": "Lock calibration failure",
+    "550": "Low battery",
+    "551": "Lock overheat",
+    "560": "Lock disconnected"
+  }
+}
