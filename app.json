@@ -1,6 +1,6 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "compatibility": ">=7.4.0",
   "platforms": [
     "local",
@@ -43,12 +43,14 @@
           "en": "Locked",
           "nl": "Vergrendeld",
           "de": "Verriegelt",
-          "fr": "Verrouiller",
+          "fr": "Verrouillé",
           "it": "Chiusa",
-          "sv": "Precis",
+          "sv": "Låst",
           "no": "Låst",
           "es": "Cerrado",
-          "da": "Låst"
+          "da": "Låst",
+          "ru": "Закрыто",
+          "pl": "Zablokowane"
         },
         "tokens": [
           {
@@ -76,12 +78,14 @@
           "en": "Unlocked",
           "nl": "Ontgrendeld",
           "de": "Entriegelt",
-          "fr": "Déverrouiller",
+          "fr": "Déverrouillé",
           "it": "Aperta",
-          "sv": "Precis upp",
-          "no": "Låst opp",
+          "sv": "Olåst",
+          "no": "Ulåst",
           "es": "Abierto",
-          "da": "Låst op"
+          "da": "Låst op",
+          "ru": "Открыто",
+          "pl": "Odblokowane"
         },
         "tokens": [
           {
